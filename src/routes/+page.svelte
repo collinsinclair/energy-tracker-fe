@@ -21,7 +21,7 @@
 
 <h1 class="mt-5 text-center text-2xl">Energy Tracker</h1>
 <div class="mt-3 text-center">
-	<p>Date: {new Date(data.date).toLocaleDateString()}</p>
+	<p>Date: {data.date}</p>
 	<p>Total Calories Consumed: {data.total_calories_consumed.toLocaleString()}</p>
 	<p>Expenditure: {data.total_expenditure.toLocaleString()}</p>
 	<p>Adjusted Goal: {data.calorie_goal.toLocaleString()}</p>
