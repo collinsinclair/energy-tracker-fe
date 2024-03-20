@@ -6,7 +6,7 @@
 		total_intake: 0,
 		total_expenditure: 0,
 		initial_goal: 0,
-		previous_day_calorie_surplus: 0,
+		adjustment: 0,
 		adjusted_goal: 0,
 		remaining_calories: 0,
 		todays_intakes: [] // Added to hold today's intakes
@@ -40,7 +40,7 @@
 	<p>Total Intake: {data.total_intake.toLocaleString()}</p>
 	<p>Expenditure: {data.total_expenditure.toLocaleString()}</p>
 	<p>Initial Goal: {data.initial_goal.toLocaleString()}</p>
-	<p>Previous Day Calorie Surplus: {data.previous_day_calorie_surplus.toLocaleString()}</p>
+	<p>Adjustment: {data.adjustment.toLocaleString()}</p>
 	<p>Adjusted Goal: {data.adjusted_goal.toLocaleString()}</p>
 	<p class="font-bold">Remaining Calories: {data.remaining_calories.toLocaleString()}</p>
 	{#if data.todays_intakes && data.todays_intakes.length > 0}
